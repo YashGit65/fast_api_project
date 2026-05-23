@@ -1,0 +1,6 @@
+Resume-ready bullets:
+
+- Built a **FastAPI-based Car Price Prediction API** that predicts used car prices from vehicle features using a serialized scikit-learn model.
+- Developed an end-to-end ML pipeline with **pandas, preprocessing, imputation, scaling, one-hot encoding, and Random Forest regression**.
+- Secured API endpoints using **JWT authentication, API-key validation, Pydantic request schemas, logging middleware, and centralized exception handling**.
+- Containerized the application with **Docker/Docker Compose** and integrated **Redis caching, Prometheus metrics, and Grafana monitoring** for production-style deployment.
