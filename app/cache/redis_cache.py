@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-REDIS_URL = os.getenv("REDIS_URL")
+REDIS_URL = os.getenv("redis_url")
 
 redis_client = redis.StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
